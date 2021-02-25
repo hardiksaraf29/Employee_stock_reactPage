@@ -1,0 +1,29 @@
+CARD.JS
+
+class Card extends React.Components
+{
+
+    constructor(props)
+    {
+        super(props);
+        this.state=
+        {
+            count:0
+        }
+    }
+
+    render()
+    {
+
+        return(
+            <REACT.Fragment>
+
+            <h1>{this.state.count} </h1>
+
+
+            </React.Fragment>
+        )
+    }
+}
+
+======================================================================================
